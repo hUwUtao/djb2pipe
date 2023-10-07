@@ -4,7 +4,7 @@ TARGET = djb2
 
 all: djb2
 
-djb2: djb2.c:
+djb2: djb2.c
 	$(CC) $(CFLAGS) -o djb2 djb2.c
 
 clean:
